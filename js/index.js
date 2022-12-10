@@ -27,6 +27,7 @@ function imprimirJSONes(){
         container.appendChild(p2);
     });
 }
+
 function imprimirJSONen(){
     fetch('js/info.json')
     .then(function(res){
