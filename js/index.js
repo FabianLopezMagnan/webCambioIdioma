@@ -9,15 +9,10 @@ function imprimirJSONEspañol(){
     .then(function(json){
         // Obtiene un elemento del documento HTML Párrafo
         var p = document.getElementById('textoP');
-
+        var p2 = document.getElementById('textoP2');
         // Establece el contenido del archivo JSON como el texto del párrafo
         p.textContent = json.es.prueba1;
-
-        // Obtiene un elemento del documento HTML donde se quiere mostrar el párrafo
-        //var container = document.getElementById('container');
-
-        // Agrega el párrafo al elemento
-        //container.appendChild(p);
+        p2.textContent = json.es.prueba2;
     });
 }
 
