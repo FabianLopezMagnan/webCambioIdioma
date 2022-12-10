@@ -1,5 +1,5 @@
 document.getElementById('jsonBTNes').addEventListener('click',imprimirJSONes);
-document.getElementById('jsonBTNes').addEventListener('click',imprimirJSONen);
+//document.getElementById('jsonBTNes').addEventListener('click',imprimirJSONen);
 function imprimirJSONes(){
     fetch('js/info.json')
     .then(function(res){
@@ -28,7 +28,7 @@ function imprimirJSONes(){
     });
 }
 
-function imprimirJSONen(){
+/*function imprimirJSONen(){
     fetch('js/info.json')
     .then(function(res){
         // Devuelve el contenido del archivo JSON parseado como un objeto JavaScript
@@ -54,4 +54,4 @@ function imprimirJSONen(){
         container.appendChild(p);
         container.appendChild(p2);
     });
-}
+}*/
