@@ -17,7 +17,7 @@ function imprimirJSONes() {
 
       // Establece el contenido del archivo JSON como el texto del párrafo
       p.textContent = json.es.prueba1;
-      p.textContent = json.es.prueba2;
+      p2.textContent = json.es.prueba2;
     });
 }
 
@@ -37,6 +37,6 @@ function imprimirJSONen() {
 
       // Establece el contenido del archivo JSON como el texto del párrafo
       p.textContent = json.en.prueba1;
-      p.textContent = json.en.prueba2;
+      p2.textContent = json.en.prueba2;
     });
 }
