@@ -1,4 +1,4 @@
-document.getElementById('jsonBTN').addEventListener('click',imprimirJSON);
+document.getElementById('jsonBTNes').addEventListener('click',imprimirJSON);
 
 function imprimirJSON(){
     fetch('js/info.json')
@@ -14,7 +14,7 @@ function imprimirJSON(){
         var p = document.createElement('p');
 
         // Establece el contenido del archivo JSON como el texto del párrafo
-        p.textContent = json;
+        p.textContent = json.es.prueba1+" "+json.es.prueba2;
 
         // Obtiene un elemento del documento HTML donde se quiere mostrar el párrafo
         var container = document.getElementById('container');
