@@ -1,0 +1,10 @@
+{
+  "es": {
+    "prueba1": "esto es un texto de prueba en español",
+    "prueba2": "texto prueba en español"
+  },
+  "en": {
+    "prueba1": "This is a text in english",
+    "prueba2": "Text in english"
+  }
+}
