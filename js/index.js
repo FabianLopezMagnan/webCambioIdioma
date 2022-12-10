@@ -2,7 +2,12 @@ function obtenerJSON() {
     fetch('js/info.json')
       .then(function(res) {
         // Devuelve el contenido del archivo JSON parseado como un objeto JavaScript
-        return res.json();
+        console.log(res.json);
+      })
+      .then(function(json) {
+        // Accede al contenido del archivo JSON
+        console.log(json);
+        return json;
       });
   }
   document.getElementById('jsonBTNes').addEventListener('click', function() {
